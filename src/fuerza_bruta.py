@@ -1,7 +1,25 @@
 # src/fuerza_bruta.py
 
 def fuerza_bruta(A, N, l, u, p):
-    
+    """
+    Búsqueda exhaustiva (backtracking) para el problema de la subasta de acciones.
+
+    Parámetros
+    ----------
+    A : int
+        Número total de acciones disponibles.
+    N : int
+        Número de oferentes.
+    l, u, p : list[int]
+        Listas de longitud N con el mínimo, máximo y precio por acción
+        de cada oferente, respectivamente.
+
+    Retorna
+    -------
+    int
+        Ganancia máxima posible al repartir como mucho A acciones entre
+        los N oferentes.
+    """
     mejor_ganancia = 0
 
     def backtrack(i, acciones_restantes, ganancia_actual):
@@ -21,9 +39,10 @@ def fuerza_bruta(A, N, l, u, p):
                 backtrack(
                     i + 1,
                     acciones_restantes - x,
-                    ganancia_actual + x * p[i]
+                    ganancia_actual + x * p[i],
                 )
 
     # Llamada inicial
     backtrack(0, A, 0)
     return mejor_ganancia
+
