@@ -3,9 +3,10 @@
 import json
 import os
 
-def leer_datos(ruta):
+
+def read_data(path):
     """Lee el archivo de entrada y devuelve los datos de la subasta."""
-    with open(ruta, "r") as f:
+    with open(path, "r") as f:
         A, N = map(int, f.readline().split())
         l, u, p = [], [], []
         for _ in range(N):
@@ -16,9 +17,9 @@ def leer_datos(ruta):
     return A, N, l, u, p
 
 
-def guardar_resultado(nombre_archivo, resultado):
+def save_result(filename, result):
     """Guarda un resultado en formato JSON dentro de la carpeta resultados."""
     os.makedirs("resultados", exist_ok=True)
-    ruta = os.path.join("resultados", f"{nombre_archivo}.json")
-    with open(ruta, "w") as f:
-        json.dump(resultado, f, indent=4)
+    path = os.path.join("resultados", f"{filename}.json")
+    with open(path, "w") as f:
+        json.dump(result, f, indent=4)
