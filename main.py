@@ -1,14 +1,12 @@
-
-
-from src.utils import leer_datos
-from src.generador_instancias import generar_instancia
-from src.fuerza_bruta import fuerza_bruta
+from src.utils import read_data
+from src.generador_instancias import generate_instance
+from src.brute_force import brute_force
 
 # Generar una instancia de prueba automática
-ruta = generar_instancia(10, 3, nombre="ejemplo_prueba")
+path = generate_instance(10, 3, name="ejemplo_prueba")
 
 # Leer los datos generados
-A, N, l, u, p = leer_datos(ruta)
+A, N, l, u, p = read_data(path)
 
 print("Capacidad total (A):", A)
 print("Número de oferentes (N):", N)
@@ -17,6 +15,6 @@ print("Máximos u:", u)
 print("Precios p:", p)
 
 # Ejecutar el algoritmo de fuerza bruta
-resultado = fuerza_bruta(A, N, l, u, p)
+result = brute_force(A, N, l, u, p)
 
-print("\nGanancia máxima (fuerza bruta):", resultado)
+print("\nGanancia máxima (fuerza bruta):", result)
