@@ -4,6 +4,8 @@ Lee resultados del experimento (resultados/experimento.json o .csv) y genera:
 - estadísticas descriptivas impresas
 - resumen CSV
 - gráficas (tiempo vs A, tiempo vs N, boxplots tiempo por algoritmo, memoria)
+Incluye una gráfica adicional tiempo vs N en escala logarítmica
+para visualizar mejor dp y memo cuando sus tiempos son muy pequeños.
 """
 
 import os
@@ -25,7 +27,12 @@ elif os.path.exists(JSON_PATH):
     # convertir a DataFrame plano
     rows = []
     for inst in data:
-        base = {"instance_path": inst.get("path"), "A": inst.get("A"), "N": inst.get("N"), "seed": inst.get("seed")}
+        base = {
+            "instance_path": inst.get("path"),
+            "A": inst.get("A"),
+            "N": inst.get("N"),
+            "seed": inst.get("seed"),
+        }
         for alg, res in inst.get("resultados", {}).items():
             row = base.copy()
             row["algorithm"] = alg
@@ -51,7 +58,7 @@ df["memoria"] = pd.to_numeric(df["memoria"], errors="coerce")
 
 # Estadística descriptiva por algoritmo
 group = df.groupby("algorithm")
-desc = group[["tiempo","memoria"]].describe().transpose()
+desc = group[["tiempo", "memoria"]].describe().transpose()
 print("\n=== ESTADÍSTICAS DESCRIPTIVAS ===")
 print(desc)
 
@@ -64,21 +71,23 @@ print("\n=== MEMORIA PROMEDIO POR ALGORITMO ===")
 print(mem_mean)
 
 # Guardar resumen simple
-summary_df = pd.DataFrame({
-    "time_mean": time_mean,
-    "time_std": group["tiempo"].std(),
-    "mem_mean": mem_mean,
-    "mem_std": group["memoria"].std()
-})
+summary_df = pd.DataFrame(
+    {
+        "time_mean": time_mean,
+        "time_std": group["tiempo"].std(),
+        "mem_mean": mem_mean,
+        "mem_std": group["memoria"].std(),
+    }
+)
 summary_df.to_csv("resultados/summary_by_algorithm.csv")
 
 # ----------------- GRAFICAS -----------------
 
-# 1) Tiempo (mediana) vs A (una línea por algoritmo)
-plt.figure(figsize=(8,5))
+# 1) Tiempo (mediana) vs A (una línea por algoritmo, escala lineal)
+plt.figure(figsize=(8, 5))
 for alg, g in df.groupby("algorithm"):
     medians = g.groupby("A")["tiempo"].median().sort_index()
-    plt.plot(medians.index, medians.values, marker='o', label=alg)
+    plt.plot(medians.index, medians.values, marker="o", label=alg)
 plt.xlabel("A (acciones)")
 plt.ylabel("Tiempo mediano (s)")
 plt.title("Tiempo mediano vs A por algoritmo")
@@ -88,11 +97,11 @@ plt.tight_layout()
 plt.savefig(os.path.join(OUT_DIR, "time_vs_A_median.png"))
 plt.close()
 
-# 2) Tiempo (mediana) vs N
-plt.figure(figsize=(8,5))
+# 2) Tiempo (mediana) vs N (escala lineal, como antes)
+plt.figure(figsize=(8, 5))
 for alg, g in df.groupby("algorithm"):
     medians = g.groupby("N")["tiempo"].median().sort_index()
-    plt.plot(medians.index, medians.values, marker='o', label=alg)
+    plt.plot(medians.index, medians.values, marker="o", label=alg)
 plt.xlabel("N (oferentes)")
 plt.ylabel("Tiempo mediano (s)")
 plt.title("Tiempo mediano vs N por algoritmo")
@@ -102,9 +111,28 @@ plt.tight_layout()
 plt.savefig(os.path.join(OUT_DIR, "time_vs_N_median.png"))
 plt.close()
 
+# 2b) Tiempo (mediana) vs N en escala logarítmica
+#    Esto permite ver mejor algoritmos muy rápidos (dp, memo) sin que
+#    queden pegados al eje X.
+plt.figure(figsize=(8, 5))
+for alg, g in df.groupby("algorithm"):
+    medians = g.groupby("N")["tiempo"].median().sort_index()
+    # evitar ceros para la escala log: recortamos a un epsilon mínimo
+    medians = medians.clip(lower=1e-9)
+    plt.plot(medians.index, medians.values, marker="o", label=alg)
+plt.xlabel("N (oferentes)")
+plt.ylabel("Tiempo mediano (s)")
+plt.yscale("log")
+plt.title("Tiempo mediano vs N por algoritmo (escala logarítmica)")
+plt.legend()
+plt.grid(True, which="both", axis="y")
+plt.tight_layout()
+plt.savefig(os.path.join(OUT_DIR, "time_vs_N_median_log.png"))
+plt.close()
+
 # 3) Boxplot de tiempos por algoritmo (comparación de distribuciones)
-plt.figure(figsize=(8,5))
-df_box = df[["algorithm","tiempo"]].dropna()
+plt.figure(figsize=(8, 5))
+df_box = df[["algorithm", "tiempo"]].dropna()
 df_box.boxplot(by="algorithm", column=["tiempo"], rot=45)
 plt.suptitle("")
 plt.title("Distribución de tiempos por algoritmo")
@@ -115,7 +143,7 @@ plt.savefig(os.path.join(OUT_DIR, "boxplot_tiempos_por_algoritmo.png"))
 plt.close()
 
 # 4) Barra de memoria promedio por algoritmo
-plt.figure(figsize=(8,5))
+plt.figure(figsize=(8, 5))
 mem_mean.plot(kind="bar")
 plt.ylabel("Memoria promedio (bytes)")
 plt.title("Memoria promedio por algoritmo")
@@ -124,7 +152,7 @@ plt.savefig(os.path.join(OUT_DIR, "memoria_promedio_por_algoritmo.png"))
 plt.close()
 
 # 5) Scatter tiempo vs resultado (si quieres ver trade-offs)
-plt.figure(figsize=(8,5))
+plt.figure(figsize=(8, 5))
 for alg, g in df.groupby("algorithm"):
     plt.scatter(g["tiempo"], g["resultado"], label=alg, alpha=0.8)
 plt.xlabel("Tiempo (s)")
