@@ -4,10 +4,10 @@ Análisis experimental de algoritmos exactos para el problema de **subasta de ac
 
 ## Autores
 
-- *Nombre Apellido 1* –  
-- *Nombre Apellido 2* –  
+- *Nicolas Vasquez Rengifo* –  
+- *Juan Camilo Miño* –  
 
-*(Completar con los datos reales.)*
+
 
 ---
 
