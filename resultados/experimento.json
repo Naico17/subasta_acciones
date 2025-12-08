@@ -1,1008 +1,1008 @@
 [
     {
-        "path": "data/instancias/inst_A10_N5_0_20251207185750.txt",
+        "path": "data/instancias/inst_A10_N5_0_20251208183448.txt",
         "A": 10,
         "N": 5,
         "seed": 43,
         "resultados": {
             "brute_force": {
                 "resultado": 1755,
-                "tiempo": 0.0014044999988982454,
+                "tiempo": 0.001339999958872795,
                 "memoria": 768
             },
             "recursive": {
                 "resultado": 1755,
-                "tiempo": 0.000734799999918323,
+                "tiempo": 0.0007439999608322978,
                 "memoria": 384
             },
             "memo": {
                 "resultado": 1755,
-                "tiempo": 0.0003393000006326474,
-                "memoria": 7064
+                "tiempo": 0.0003404999151825905,
+                "memoria": 6272
             },
             "dp": {
                 "resultado": 1755,
-                "tiempo": 0.0004214000000501983,
+                "tiempo": 0.0004285000031813979,
                 "memoria": 1632
             }
         }
     },
     {
-        "path": "data/instancias/inst_A10_N5_1_20251207185750.txt",
+        "path": "data/instancias/inst_A10_N5_1_20251208183448.txt",
         "A": 10,
         "N": 5,
         "seed": 44,
         "resultados": {
             "brute_force": {
                 "resultado": 1501,
-                "tiempo": 0.0009761999972397462,
-                "memoria": 768
+                "tiempo": 0.0016337999841198325,
+                "memoria": 800
             },
             "recursive": {
                 "resultado": 1501,
-                "tiempo": 0.0007050000021990854,
+                "tiempo": 0.0006650000577792525,
                 "memoria": 384
             },
             "memo": {
                 "resultado": 1501,
-                "tiempo": 0.00034329999834881164,
-                "memoria": 7632
+                "tiempo": 0.0002706999657675624,
+                "memoria": 7120
             },
             "dp": {
                 "resultado": 1501,
-                "tiempo": 0.0002690999972401187,
-                "memoria": 1552
+                "tiempo": 0.0004886999959126115,
+                "memoria": 1664
             }
         }
     },
     {
-        "path": "data/instancias/inst_A10_N5_2_20251207185750.txt",
+        "path": "data/instancias/inst_A10_N5_2_20251208183448.txt",
         "A": 10,
         "N": 5,
         "seed": 45,
         "resultados": {
             "brute_force": {
                 "resultado": 1206,
-                "tiempo": 0.00025380000079167075,
+                "tiempo": 0.00028439995367079973,
                 "memoria": 704
             },
             "recursive": {
                 "resultado": 1206,
-                "tiempo": 0.00016360000154236332,
+                "tiempo": 0.00034959998447448015,
                 "memoria": 320
             },
             "memo": {
                 "resultado": 1206,
-                "tiempo": 0.00020080000103916973,
-                "memoria": 4744
+                "tiempo": 0.0003519000019878149,
+                "memoria": 4552
             },
             "dp": {
                 "resultado": 1206,
-                "tiempo": 0.00023949999740580097,
-                "memoria": 1392
+                "tiempo": 0.00034819997381418943,
+                "memoria": 1448
             }
         }
     },
     {
-        "path": "data/instancias/inst_A10_N5_3_20251207185750.txt",
+        "path": "data/instancias/inst_A10_N5_3_20251208183448.txt",
         "A": 10,
         "N": 5,
         "seed": 46,
         "resultados": {
             "brute_force": {
                 "resultado": 1650,
-                "tiempo": 0.0005743999972764868,
+                "tiempo": 0.00044380000326782465,
                 "memoria": 640
             },
             "recursive": {
                 "resultado": 1650,
-                "tiempo": 0.0003660000002128072,
+                "tiempo": 0.00040550006087869406,
                 "memoria": 272
             },
             "memo": {
                 "resultado": 1650,
-                "tiempo": 0.0004153000008955132,
-                "memoria": 7688
+                "tiempo": 0.0002476000227034092,
+                "memoria": 7568
             },
             "dp": {
                 "resultado": 1650,
-                "tiempo": 0.0002516999993531499,
+                "tiempo": 0.0003988000098615885,
                 "memoria": 1832
             }
         }
     },
     {
-        "path": "data/instancias/inst_A10_N10_0_20251207185750.txt",
+        "path": "data/instancias/inst_A10_N10_0_20251208183448.txt",
         "A": 10,
         "N": 10,
         "seed": 47,
         "resultados": {
             "brute_force": {
                 "resultado": 1950,
-                "tiempo": 0.006731199999194359,
-                "memoria": 784
+                "tiempo": 0.00613540003541857,
+                "memoria": 800
             },
             "recursive": {
                 "resultado": 1950,
-                "tiempo": 0.003599800002120901,
+                "tiempo": 0.005826500011608005,
                 "memoria": 448
             },
             "memo": {
                 "resultado": 1950,
-                "tiempo": 0.0008954000004450791,
-                "memoria": 14344
+                "tiempo": 0.0010215999791398644,
+                "memoria": 11984
             },
             "dp": {
                 "resultado": 1950,
-                "tiempo": 0.0006356999983836431,
+                "tiempo": 0.000660100020468235,
                 "memoria": 3072
             }
         }
     },
     {
-        "path": "data/instancias/inst_A10_N10_1_20251207185750.txt",
+        "path": "data/instancias/inst_A10_N10_1_20251208183448.txt",
         "A": 10,
         "N": 10,
         "seed": 48,
         "resultados": {
             "brute_force": {
                 "resultado": 1880,
-                "tiempo": 0.005907199996727286,
-                "memoria": 784
+                "tiempo": 0.005654699984006584,
+                "memoria": 800
             },
             "recursive": {
                 "resultado": 1880,
-                "tiempo": 0.004394299998239148,
+                "tiempo": 0.003987700096331537,
                 "memoria": 480
             },
             "memo": {
                 "resultado": 1880,
-                "tiempo": 0.0008056000006035902,
-                "memoria": 8712
+                "tiempo": 0.0005144000751897693,
+                "memoria": 8592
             },
             "dp": {
                 "resultado": 1880,
-                "tiempo": 0.000642299997707596,
+                "tiempo": 0.0006029999349266291,
                 "memoria": 2624
             }
         }
     },
     {
-        "path": "data/instancias/inst_A10_N10_2_20251207185750.txt",
+        "path": "data/instancias/inst_A10_N10_2_20251208183448.txt",
         "A": 10,
         "N": 10,
         "seed": 49,
         "resultados": {
             "brute_force": {
                 "resultado": 1700,
-                "tiempo": 0.010185799997998402,
+                "tiempo": 0.009943099925294518,
                 "memoria": 832
             },
             "recursive": {
                 "resultado": 1700,
-                "tiempo": 0.0036717000002681743,
+                "tiempo": 0.0036501999711617827,
                 "memoria": 400
             },
             "memo": {
                 "resultado": 1700,
-                "tiempo": 0.000748100002965657,
-                "memoria": 11352
+                "tiempo": 0.0005833999020978808,
+                "memoria": 13472
             },
             "dp": {
                 "resultado": 1700,
-                "tiempo": 0.0005939000002399553,
+                "tiempo": 0.0005326999817043543,
                 "memoria": 2608
             }
         }
     },
     {
-        "path": "data/instancias/inst_A10_N10_3_20251207185750.txt",
+        "path": "data/instancias/inst_A10_N10_3_20251208183448.txt",
         "A": 10,
         "N": 10,
         "seed": 50,
         "resultados": {
             "brute_force": {
                 "resultado": 1684,
-                "tiempo": 0.01067450000118697,
+                "tiempo": 0.0102099000941962,
                 "memoria": 832
             },
             "recursive": {
                 "resultado": 1684,
-                "tiempo": 0.006841400001576403,
+                "tiempo": 0.00590549991466105,
                 "memoria": 400
             },
             "memo": {
                 "resultado": 1684,
-                "tiempo": 0.0007356999994954094,
-                "memoria": 14048
+                "tiempo": 0.0007010999834164977,
+                "memoria": 13928
             },
             "dp": {
                 "resultado": 1684,
-                "tiempo": 0.000707800001691794,
+                "tiempo": 0.0006196999456733465,
                 "memoria": 2792
             }
         }
     },
     {
-        "path": "data/instancias/inst_A10_N15_0_20251207185750.txt",
+        "path": "data/instancias/inst_A10_N15_0_20251208183448.txt",
         "A": 10,
         "N": 15,
         "seed": 51,
         "resultados": {
             "brute_force": {
                 "resultado": 1972,
-                "tiempo": 0.023220399998535868,
-                "memoria": 832
+                "tiempo": 0.02113390003796667,
+                "memoria": 864
             },
             "recursive": {
                 "resultado": 1972,
-                "tiempo": 0.013010999999096384,
+                "tiempo": 0.012268600054085255,
                 "memoria": 432
             },
             "memo": {
                 "resultado": 1972,
-                "tiempo": 0.001222400002006907,
-                "memoria": 15704
+                "tiempo": 0.000972700072452426,
+                "memoria": 15584
             },
             "dp": {
                 "resultado": 1972,
-                "tiempo": 0.0008720000005268957,
+                "tiempo": 0.0009215000318363309,
                 "memoria": 3616
             }
         }
     },
     {
-        "path": "data/instancias/inst_A10_N15_1_20251207185750.txt",
+        "path": "data/instancias/inst_A10_N15_1_20251208183448.txt",
         "A": 10,
         "N": 15,
         "seed": 52,
         "resultados": {
             "brute_force": {
                 "resultado": 1852,
-                "tiempo": 0.01728739999816753,
+                "tiempo": 0.015222399961203337,
                 "memoria": 832
             },
             "recursive": {
                 "resultado": 1852,
-                "tiempo": 0.004742900000564987,
+                "tiempo": 0.005111800041049719,
                 "memoria": 384
             },
             "memo": {
                 "resultado": 1852,
-                "tiempo": 0.000812399997812463,
-                "memoria": 15336
+                "tiempo": 0.0007207000162452459,
+                "memoria": 15288
             },
             "dp": {
                 "resultado": 1852,
-                "tiempo": 0.0007312000016099773,
+                "tiempo": 0.0007151999743655324,
                 "memoria": 3496
             }
         }
     },
     {
-        "path": "data/instancias/inst_A10_N15_2_20251207185750.txt",
+        "path": "data/instancias/inst_A10_N15_2_20251208183448.txt",
         "A": 10,
         "N": 15,
         "seed": 53,
         "resultados": {
             "brute_force": {
                 "resultado": 1985,
-                "tiempo": 0.05970110000271234,
+                "tiempo": 0.05627449997700751,
                 "memoria": 864
             },
             "recursive": {
                 "resultado": 1985,
-                "tiempo": 0.021810099999129307,
+                "tiempo": 0.022444200003519654,
                 "memoria": 496
             },
             "memo": {
                 "resultado": 1985,
-                "tiempo": 0.0011924999998882413,
-                "memoria": 15984
+                "tiempo": 0.0008298000320792198,
+                "memoria": 9864
             },
             "dp": {
                 "resultado": 1985,
-                "tiempo": 0.0009922999997797888,
-                "memoria": 3560
+                "tiempo": 0.00081619992852211,
+                "memoria": 3392
             }
         }
     },
     {
-        "path": "data/instancias/inst_A10_N15_3_20251207185750.txt",
+        "path": "data/instancias/inst_A10_N15_3_20251208183448.txt",
         "A": 10,
         "N": 15,
         "seed": 54,
         "resultados": {
             "brute_force": {
                 "resultado": 1831,
-                "tiempo": 0.060456499999418156,
-                "memoria": 896
+                "tiempo": 0.06103770004119724,
+                "memoria": 928
             },
             "recursive": {
                 "resultado": 1831,
-                "tiempo": 0.043063200002507074,
+                "tiempo": 0.05365969997365028,
                 "memoria": 512
             },
             "memo": {
                 "resultado": 1831,
-                "tiempo": 0.0013681000018550549,
-                "memoria": 16536
+                "tiempo": 0.0008650999516248703,
+                "memoria": 8432
             },
             "dp": {
                 "resultado": 1831,
-                "tiempo": 0.0009451000005356036,
-                "memoria": 3656
+                "tiempo": 0.0009584000799804926,
+                "memoria": 3488
             }
         }
     },
     {
-        "path": "data/instancias/inst_A25_N5_0_20251207185750.txt",
+        "path": "data/instancias/inst_A25_N5_0_20251208183448.txt",
         "A": 25,
         "N": 5,
         "seed": 55,
         "resultados": {
             "brute_force": {
                 "resultado": 4298,
-                "tiempo": 0.002515699998184573,
+                "tiempo": 0.0024377000518143177,
                 "memoria": 704
             },
             "recursive": {
                 "resultado": 4298,
-                "tiempo": 0.0011080000003858004,
+                "tiempo": 0.0010686999885365367,
                 "memoria": 352
             },
             "memo": {
                 "resultado": 4298,
-                "tiempo": 0.0007307000014407095,
-                "memoria": 14640
+                "tiempo": 0.0005730000557377934,
+                "memoria": 9640
             },
             "dp": {
                 "resultado": 4298,
-                "tiempo": 0.0010607999975036364,
+                "tiempo": 0.0010491000721231103,
                 "memoria": 4352
             }
         }
     },
     {
-        "path": "data/instancias/inst_A25_N5_1_20251207185750.txt",
+        "path": "data/instancias/inst_A25_N5_1_20251208183448.txt",
         "A": 25,
         "N": 5,
         "seed": 56,
         "resultados": {
             "brute_force": {
                 "resultado": 4431,
-                "tiempo": 0.0008391000010306016,
+                "tiempo": 0.0006975000724196434,
                 "memoria": 704
             },
             "recursive": {
                 "resultado": 4431,
-                "tiempo": 0.0005237000004854053,
+                "tiempo": 0.0004888999974355102,
                 "memoria": 384
             },
             "memo": {
                 "resultado": 4431,
-                "tiempo": 0.0005060999974375591,
-                "memoria": 9744
+                "tiempo": 0.0004287000047042966,
+                "memoria": 5192
             },
             "dp": {
                 "resultado": 4431,
-                "tiempo": 0.0009151000012934674,
+                "tiempo": 0.0008950999472290277,
                 "memoria": 3488
             }
         }
     },
     {
-        "path": "data/instancias/inst_A25_N5_2_20251207185750.txt",
+        "path": "data/instancias/inst_A25_N5_2_20251208183448.txt",
         "A": 25,
         "N": 5,
         "seed": 57,
         "resultados": {
             "brute_force": {
                 "resultado": 4482,
-                "tiempo": 0.0031576999972457998,
+                "tiempo": 0.0027950999792665243,
                 "memoria": 736
             },
             "recursive": {
                 "resultado": 4482,
-                "tiempo": 0.0023122000020521227,
+                "tiempo": 0.0015654999297112226,
                 "memoria": 448
             },
             "memo": {
                 "resultado": 4482,
-                "tiempo": 0.0007439000000886153,
-                "memoria": 14256
+                "tiempo": 0.0006165999220684171,
+                "memoria": 9256
             },
             "dp": {
                 "resultado": 4482,
-                "tiempo": 0.0012324000017542858,
+                "tiempo": 0.0012121000327169895,
                 "memoria": 4416
             }
         }
     },
     {
-        "path": "data/instancias/inst_A25_N5_3_20251207185750.txt",
+        "path": "data/instancias/inst_A25_N5_3_20251208183448.txt",
         "A": 25,
         "N": 5,
         "seed": 58,
         "resultados": {
             "brute_force": {
                 "resultado": 3923,
-                "tiempo": 0.0039044000004651025,
-                "memoria": 720
+                "tiempo": 0.003578400006517768,
+                "memoria": 736
             },
             "recursive": {
                 "resultado": 3923,
-                "tiempo": 0.0027372000004106667,
+                "tiempo": 0.002749200095422566,
                 "memoria": 416
             },
             "memo": {
                 "resultado": 3923,
-                "tiempo": 0.0010762999991129618,
-                "memoria": 14656
+                "tiempo": 0.0010365999769419432,
+                "memoria": 13408
             },
             "dp": {
                 "resultado": 3923,
-                "tiempo": 0.0014050999998289626,
-                "memoria": 4592
+                "tiempo": 0.0013432999840006232,
+                "memoria": 4480
             }
         }
     },
     {
-        "path": "data/instancias/inst_A25_N10_0_20251207185750.txt",
+        "path": "data/instancias/inst_A25_N10_0_20251208183448.txt",
         "A": 25,
         "N": 10,
         "seed": 59,
         "resultados": {
             "brute_force": {
                 "resultado": 4690,
-                "tiempo": 0.08907689999978174,
-                "memoria": 848
+                "tiempo": 0.09876540000550449,
+                "memoria": 864
             },
             "recursive": {
                 "resultado": 4690,
-                "tiempo": 0.1210436999972444,
+                "tiempo": 0.11485619994346052,
                 "memoria": 672
             },
             "memo": {
                 "resultado": 4690,
-                "tiempo": 0.002212900002632523,
+                "tiempo": 0.0019911000272259116,
                 "memoria": 28232
             },
             "dp": {
                 "resultado": 4690,
-                "tiempo": 0.0024052000007941388,
-                "memoria": 7200
+                "tiempo": 0.0022103000665083528,
+                "memoria": 6808
             }
         }
     },
     {
-        "path": "data/instancias/inst_A25_N10_1_20251207185750.txt",
+        "path": "data/instancias/inst_A25_N10_1_20251208183449.txt",
         "A": 25,
         "N": 10,
         "seed": 60,
         "resultados": {
             "brute_force": {
                 "resultado": 4654,
-                "tiempo": 1.6457601000001887,
+                "tiempo": 1.7157277999212965,
                 "memoria": 1024
             },
             "recursive": {
                 "resultado": 4654,
-                "tiempo": 0.6653212999990501,
+                "tiempo": 0.6356146999169141,
                 "memoria": 800
             },
             "memo": {
                 "resultado": 4654,
-                "tiempo": 0.002763999997114297,
-                "memoria": 25952
+                "tiempo": 0.002428899984806776,
+                "memoria": 27296
             },
             "dp": {
                 "resultado": 4654,
-                "tiempo": 0.002836899999238085,
+                "tiempo": 0.0023891000309959054,
                 "memoria": 6816
             }
         }
     },
     {
-        "path": "data/instancias/inst_A25_N10_2_20251207185753.txt",
+        "path": "data/instancias/inst_A25_N10_2_20251208183451.txt",
         "A": 25,
         "N": 10,
         "seed": 61,
         "resultados": {
             "brute_force": {
                 "resultado": 4675,
-                "tiempo": 0.3940293000014208,
-                "memoria": 912
+                "tiempo": 0.4016886999597773,
+                "memoria": 928
             },
             "recursive": {
                 "resultado": 4675,
-                "tiempo": 0.2855691000004299,
+                "tiempo": 0.2713701999746263,
                 "memoria": 672
             },
             "memo": {
                 "resultado": 4675,
-                "tiempo": 0.00238800000079209,
+                "tiempo": 0.002230199985206127,
                 "memoria": 17000
             },
             "dp": {
                 "resultado": 4675,
-                "tiempo": 0.003025499998329906,
+                "tiempo": 0.002725000027567148,
                 "memoria": 6848
             }
         }
     },
     {
-        "path": "data/instancias/inst_A25_N10_3_20251207185753.txt",
+        "path": "data/instancias/inst_A25_N10_3_20251208183452.txt",
         "A": 25,
         "N": 10,
         "seed": 62,
         "resultados": {
             "brute_force": {
                 "resultado": 4459,
-                "tiempo": 0.19433399999979883,
-                "memoria": 848
+                "tiempo": 0.1986998999491334,
+                "memoria": 864
             },
             "recursive": {
                 "resultado": 4459,
-                "tiempo": 0.11950889999934589,
+                "tiempo": 0.10897919989656657,
                 "memoria": 608
             },
             "memo": {
                 "resultado": 4459,
-                "tiempo": 0.0021570999997493345,
-                "memoria": 17064
+                "tiempo": 0.001932899933308363,
+                "memoria": 17320
             },
             "dp": {
                 "resultado": 4459,
-                "tiempo": 0.0028072000022802968,
+                "tiempo": 0.002433100016787648,
                 "memoria": 6432
             }
         }
     },
     {
-        "path": "data/instancias/inst_A25_N15_0_20251207185754.txt",
+        "path": "data/instancias/inst_A25_N15_0_20251208183452.txt",
         "A": 25,
         "N": 15,
         "seed": 63,
         "resultados": {
             "brute_force": {
                 "resultado": 4410,
-                "tiempo": 1.0821474000003946,
+                "tiempo": 0.9527519000694156,
                 "memoria": 960
             },
             "recursive": {
                 "resultado": 4410,
-                "tiempo": 0.2837486999997054,
+                "tiempo": 0.2685760000022128,
                 "memoria": 640
             },
             "memo": {
                 "resultado": 4410,
-                "tiempo": 0.004082800001924625,
-                "memoria": 16360
+                "tiempo": 0.00273199996445328,
+                "memoria": 16680
             },
             "dp": {
                 "resultado": 4410,
-                "tiempo": 0.0038620000013906974,
+                "tiempo": 0.003425200004130602,
                 "memoria": 6112
             }
         }
     },
     {
-        "path": "data/instancias/inst_A25_N15_1_20251207185755.txt",
+        "path": "data/instancias/inst_A25_N15_1_20251208183453.txt",
         "A": 25,
         "N": 15,
         "seed": 64,
         "resultados": {
             "brute_force": {
                 "resultado": 4646,
-                "tiempo": 0.380720699999074,
-                "memoria": 912
+                "tiempo": 0.3706116999965161,
+                "memoria": 928
             },
             "recursive": {
                 "resultado": 4646,
-                "tiempo": 0.2192840999996406,
+                "tiempo": 0.2032005999935791,
                 "memoria": 640
             },
             "memo": {
                 "resultado": 4646,
-                "tiempo": 0.002476300000125775,
-                "memoria": 31624
+                "tiempo": 0.002703599981032312,
+                "memoria": 50944
             },
             "dp": {
                 "resultado": 4646,
-                "tiempo": 0.003346699999383418,
-                "memoria": 7008
+                "tiempo": 0.0026867000851780176,
+                "memoria": 7120
             }
         }
     },
     {
-        "path": "data/instancias/inst_A25_N15_2_20251207185756.txt",
+        "path": "data/instancias/inst_A25_N15_2_20251208183454.txt",
         "A": 25,
         "N": 15,
         "seed": 65,
         "resultados": {
             "brute_force": {
                 "resultado": 4389,
-                "tiempo": 0.2730797000003804,
+                "tiempo": 0.23889590008184314,
                 "memoria": 832
             },
             "recursive": {
                 "resultado": 4389,
-                "tiempo": 0.09870330000194372,
+                "tiempo": 0.09489579999353737,
                 "memoria": 592
             },
             "memo": {
                 "resultado": 4389,
-                "tiempo": 0.0032451000006403774,
-                "memoria": 32200
+                "tiempo": 0.0032993999775499105,
+                "memoria": 43120
             },
             "dp": {
                 "resultado": 4389,
-                "tiempo": 0.004265899999154499,
+                "tiempo": 0.003942799987271428,
                 "memoria": 7840
             }
         }
     },
     {
-        "path": "data/instancias/inst_A25_N15_3_20251207185756.txt",
+        "path": "data/instancias/inst_A25_N15_3_20251208183454.txt",
         "A": 25,
         "N": 15,
         "seed": 66,
         "resultados": {
             "brute_force": {
                 "resultado": 4900,
-                "tiempo": 2.434103099996719,
+                "tiempo": 1.9701893000165,
                 "memoria": 960
             },
             "recursive": {
                 "resultado": 4900,
-                "tiempo": 0.6877663999985089,
+                "tiempo": 0.6086634000530466,
                 "memoria": 704
             },
             "memo": {
                 "resultado": 4900,
-                "tiempo": 0.004376500000944361,
-                "memoria": 49976
+                "tiempo": 0.003215199918486178,
+                "memoria": 32072
             },
             "dp": {
                 "resultado": 4900,
-                "tiempo": 0.004828799999813782,
+                "tiempo": 0.003881499986164272,
                 "memoria": 7744
             }
         }
     },
     {
-        "path": "data/instancias/inst_A50_N5_0_20251207185759.txt",
+        "path": "data/instancias/inst_A50_N5_0_20251208183457.txt",
         "A": 50,
         "N": 5,
         "seed": 67,
         "resultados": {
             "brute_force": {
                 "resultado": 7712,
-                "tiempo": 0.008036700000957353,
+                "tiempo": 0.00661679997574538,
                 "memoria": 704
             },
             "recursive": {
                 "resultado": 7712,
-                "tiempo": 0.003424900001846254,
+                "tiempo": 0.003679199959151447,
                 "memoria": 384
             },
             "memo": {
                 "resultado": 7712,
-                "tiempo": 0.0014232000030460767,
-                "memoria": 15504
+                "tiempo": 0.0010215999791398644,
+                "memoria": 9512
             },
             "dp": {
                 "resultado": 7712,
-                "tiempo": 0.003125700000964571,
+                "tiempo": 0.003192499978467822,
                 "memoria": 7360
             }
         }
     },
     {
-        "path": "data/instancias/inst_A50_N5_1_20251207185759.txt",
+        "path": "data/instancias/inst_A50_N5_1_20251208183457.txt",
         "A": 50,
         "N": 5,
         "seed": 68,
         "resultados": {
             "brute_force": {
                 "resultado": 8964,
-                "tiempo": 0.022454599999036873,
-                "memoria": 720
+                "tiempo": 0.02385379991028458,
+                "memoria": 736
             },
             "recursive": {
                 "resultado": 8964,
-                "tiempo": 0.022454699999798322,
+                "tiempo": 0.01892030006274581,
                 "memoria": 544
             },
             "memo": {
                 "resultado": 8964,
-                "tiempo": 0.003714000002219109,
-                "memoria": 26264
+                "tiempo": 0.0031695999205112457,
+                "memoria": 16520
             },
             "dp": {
                 "resultado": 8964,
-                "tiempo": 0.006839699999545701,
+                "tiempo": 0.005689700017683208,
                 "memoria": 4736
             }
         }
     },
     {
-        "path": "data/instancias/inst_A50_N5_2_20251207185759.txt",
+        "path": "data/instancias/inst_A50_N5_2_20251208183457.txt",
         "A": 50,
         "N": 5,
         "seed": 69,
         "resultados": {
             "brute_force": {
                 "resultado": 7488,
-                "tiempo": 0.008254199998191325,
+                "tiempo": 0.008100799983367324,
                 "memoria": 704
             },
             "recursive": {
                 "resultado": 7488,
-                "tiempo": 0.005891199998586671,
+                "tiempo": 0.005619700066745281,
                 "memoria": 384
             },
             "memo": {
                 "resultado": 7488,
-                "tiempo": 0.002459300001646625,
-                "memoria": 27712
+                "tiempo": 0.0014518999960273504,
+                "memoria": 18024
             },
             "dp": {
                 "resultado": 7488,
-                "tiempo": 0.004379699999844888,
+                "tiempo": 0.003760899999178946,
                 "memoria": 6784
             }
         }
     },
     {
-        "path": "data/instancias/inst_A50_N5_3_20251207185759.txt",
+        "path": "data/instancias/inst_A50_N5_3_20251208183457.txt",
         "A": 50,
         "N": 5,
         "seed": 70,
         "resultados": {
             "brute_force": {
                 "resultado": 8722,
-                "tiempo": 0.048032799997599795,
-                "memoria": 720
+                "tiempo": 0.03429490001872182,
+                "memoria": 736
             },
             "recursive": {
                 "resultado": 8722,
-                "tiempo": 0.027281300001050113,
+                "tiempo": 0.022989499964751303,
                 "memoria": 512
             },
             "memo": {
                 "resultado": 8722,
-                "tiempo": 0.003873300000122981,
-                "memoria": 26864
+                "tiempo": 0.0030622000340372324,
+                "memoria": 22272
             },
             "dp": {
                 "resultado": 8722,
-                "tiempo": 0.005928700000367826,
+                "tiempo": 0.005161800072528422,
                 "memoria": 6176
             }
         }
     },
     {
-        "path": "data/instancias/inst_A50_N10_0_20251207185759.txt",
+        "path": "data/instancias/inst_A50_N10_0_20251208183457.txt",
         "A": 50,
         "N": 10,
         "seed": 71,
         "resultados": {
             "brute_force": {
                 "resultado": 8742,
-                "tiempo": 2.305049999999028,
-                "memoria": 848
+                "tiempo": 2.181180299958214,
+                "memoria": 864
             },
             "recursive": {
                 "resultado": 8742,
-                "tiempo": 0.9272634999979346,
+                "tiempo": 0.7418042001081631,
                 "memoria": 640
             },
             "memo": {
                 "resultado": 8742,
-                "tiempo": 0.00918929999897955,
-                "memoria": 51136
+                "tiempo": 0.0063952000346034765,
+                "memoria": 51208
             },
             "dp": {
                 "resultado": 8742,
-                "tiempo": 0.014399400002730545,
+                "tiempo": 0.008328600088134408,
                 "memoria": 8128
             }
         }
     },
     {
-        "path": "data/instancias/inst_A50_N10_1_20251207185803.txt",
+        "path": "data/instancias/inst_A50_N10_1_20251208183500.txt",
         "A": 50,
         "N": 10,
         "seed": 72,
         "resultados": {
             "brute_force": {
                 "resultado": 9851,
-                "tiempo": 1.491658799997822,
-                "memoria": 848
+                "tiempo": 1.5694088999880478,
+                "memoria": 864
             },
             "recursive": {
                 "resultado": 9851,
-                "tiempo": 1.6912024000012025,
+                "tiempo": 1.205064400099218,
                 "memoria": 704
             },
             "memo": {
                 "resultado": 9851,
-                "tiempo": 0.009703499999886844,
-                "memoria": 38208
+                "tiempo": 0.006948500056751072,
+                "memoria": 30664
             },
             "dp": {
                 "resultado": 9851,
-                "tiempo": 0.010512900000321679,
+                "tiempo": 0.009207799914292991,
                 "memoria": 6720
             }
         }
     },
     {
-        "path": "data/instancias/inst_A50_N10_2_20251207185806.txt",
+        "path": "data/instancias/inst_A50_N10_2_20251208183503.txt",
         "A": 50,
         "N": 10,
         "seed": 73,
         "resultados": {
             "brute_force": {
                 "resultado": 7334,
-                "tiempo": 0.3997042999981204,
+                "tiempo": 0.40309669997077435,
                 "memoria": 832
             },
             "recursive": {
                 "resultado": 7334,
-                "tiempo": 0.36191780000081053,
+                "tiempo": 0.29214000003412366,
                 "memoria": 640
             },
             "memo": {
                 "resultado": 7334,
-                "tiempo": 0.006833399998868117,
-                "memoria": 31784
+                "tiempo": 0.005755399935878813,
+                "memoria": 32104
             },
             "dp": {
                 "resultado": 7334,
-                "tiempo": 0.009033000002091285,
+                "tiempo": 0.00862859992776066,
                 "memoria": 10112
             }
         }
     },
     {
-        "path": "data/instancias/inst_A50_N10_3_20251207185807.txt",
+        "path": "data/instancias/inst_A50_N10_3_20251208183503.txt",
         "A": 50,
         "N": 10,
         "seed": 74,
         "resultados": {
             "brute_force": {
                 "resultado": 7286,
-                "tiempo": 1.0814252999989549,
+                "tiempo": 1.0358420999255031,
                 "memoria": 832
             },
             "recursive": {
                 "resultado": 7286,
-                "tiempo": 0.468741399999999,
+                "tiempo": 0.43904779991135,
                 "memoria": 640
             },
             "memo": {
                 "resultado": 7286,
-                "tiempo": 0.006502300002466654,
-                "memoria": 34792
+                "tiempo": 0.006434899987652898,
+                "memoria": 46928
             },
             "dp": {
                 "resultado": 7286,
-                "tiempo": 0.009011099999042926,
+                "tiempo": 0.008260599919594824,
                 "memoria": 11776
             }
         }
     },
     {
-        "path": "data/instancias/inst_A50_N15_0_20251207185808.txt",
+        "path": "data/instancias/inst_A50_N15_0_20251208183505.txt",
         "A": 50,
         "N": 15,
         "seed": 75,
         "resultados": {
             "brute_force": {
                 "resultado": 9106,
-                "tiempo": 3.914192700001877,
+                "tiempo": 3.353531299973838,
                 "memoria": 896
             },
             "recursive": {
                 "resultado": 9106,
-                "tiempo": 2.0987322999972093,
+                "tiempo": 1.8050282000331208,
                 "memoria": 736
             },
             "memo": {
                 "resultado": 9106,
-                "tiempo": 0.012558100002934225,
-                "memoria": 61448
+                "tiempo": 0.010140000027604401,
+                "memoria": 78680
             },
             "dp": {
                 "resultado": 9106,
-                "tiempo": 0.013041499998507788,
+                "tiempo": 0.012284999946132302,
                 "memoria": 12448
             }
         }
     },
     {
-        "path": "data/instancias/inst_A50_N15_1_20251207185814.txt",
+        "path": "data/instancias/inst_A50_N15_1_20251208183510.txt",
         "A": 50,
         "N": 15,
         "seed": 76,
         "resultados": {
             "brute_force": {
                 "resultado": 9600,
-                "tiempo": 9.132993999999599,
+                "tiempo": 8.127713600057177,
                 "memoria": 896
             },
             "recursive": {
                 "resultado": 9600,
-                "tiempo": 5.281258099999832,
+                "tiempo": 4.426504299975932,
                 "memoria": 704
             },
             "memo": {
                 "resultado": 9600,
-                "tiempo": 0.015754799998831004,
-                "memoria": 97448
+                "tiempo": 0.01103479997254908,
+                "memoria": 61640
             },
             "dp": {
                 "resultado": 9600,
-                "tiempo": 0.016240799999650335,
+                "tiempo": 0.014994299970567226,
                 "memoria": 15296
             }
         }
     },
     {
-        "path": "data/instancias/inst_A50_N15_2_20251207185829.txt",
+        "path": "data/instancias/inst_A50_N15_2_20251208183523.txt",
         "A": 50,
         "N": 15,
         "seed": 77,
         "resultados": {
             "brute_force": {
                 "resultado": 7873,
-                "tiempo": 7.842814700001327,
-                "memoria": 912
+                "tiempo": 6.903493999969214,
+                "memoria": 928
             },
             "recursive": {
                 "resultado": 7873,
-                "tiempo": 4.550573300002725,
+                "tiempo": 4.1809187000617385,
                 "memoria": 768
             },
             "memo": {
                 "resultado": 7873,
-                "tiempo": 0.012464599996746983,
-                "memoria": 99064
+                "tiempo": 0.011765799950808287,
+                "memoria": 86632
             },
             "dp": {
                 "resultado": 7873,
-                "tiempo": 0.014383599998836871,
-                "memoria": 12736
+                "tiempo": 0.013089000014588237,
+                "memoria": 12904
             }
         }
     },
     {
-        "path": "data/instancias/inst_A50_N15_3_20251207185841.txt",
+        "path": "data/instancias/inst_A50_N15_3_20251208183534.txt",
         "A": 50,
         "N": 15,
         "seed": 78,
         "resultados": {
             "brute_force": {
                 "resultado": 9615,
-                "tiempo": 28.32264589999977,
+                "tiempo": 25.10390979994554,
                 "memoria": 960
             },
             "recursive": {
                 "resultado": 9615,
-                "tiempo": 14.30222169999979,
+                "tiempo": 12.522669399972074,
                 "memoria": 864
             },
             "memo": {
                 "resultado": 9615,
-                "tiempo": 0.012347200001386227,
-                "memoria": 91384
+                "tiempo": 0.01057269994635135,
+                "memoria": 72624
             },
             "dp": {
                 "resultado": 9615,
-                "tiempo": 0.014116800000920193,
+                "tiempo": 0.013477099942974746,
                 "memoria": 15392
             }
         }
