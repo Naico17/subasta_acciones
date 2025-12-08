@@ -69,11 +69,10 @@ Este repositorio implementa y compara varios algoritmos exactos para resolver es
 
 ## Requisitos
 
-- Python:  
+- Python:  3.12.6
 - Bibliotecas externas: *(solo librería estándar; si se agrega algo más, escribirlo aquí)*  
-- IDE recomendado:  
+- IDE recomendado:  Visual Studio Code (VS Code)
 
-*(Completar versiones concretas más adelante.)*
 
 ---
 
@@ -118,7 +117,7 @@ Si se utilizan tests con `pytest`, desde la raíz del proyecto:
 
 ---
 
-## Especificaciones del dispositivo (para el informe)
+## Especificaciones del dispositivo
 
 **Hardware**
 
