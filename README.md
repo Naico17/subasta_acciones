@@ -121,15 +121,19 @@ Si se utilizan tests con `pytest`, desde la raíz del proyecto:
 
 **Hardware**
 
-- Nombre del dispositivo:  
-- Procesador:  
-- RAM instalada:  
-- Tipo de sistema:  
+- Nombre del dispositivo	NITRO
+- Procesador	11th Gen Intel(R) Core(TM) i5-11400H @ 2.70GHz (2.69 GHz)
+- RAM instalada	12,0 GB (11,8 GB utilizable)
+- Id. del dispositivo	ECD153B9-36AC-4E57-B5A4-E5CAA2E51DF6
+- Id. del producto	00342-42319-46889-AAOEM
+- Tipo de sistema	Sistema operativo de 64 bits, procesador x64
+- Lápiz y entrada táctil	Compatibilidad con entrada manuscrita
 
 **Software**
 
-- Sistema operativo:  
-- Versión:  
-- Herramientas utilizadas (IDE, etc.):  
+- Edición	Windows 11 Home Single Language
+- Versión	24H2
+- Se instaló el	‎16/‎02/‎2025
+- Compilación del SO	26100.7171
+- Experiencia	Paquete de experiencia de características de Windows 1000.26100.265.0
 
-*(Completar estos datos según el equipo donde se corrieron los experimentos.)*
