@@ -70,7 +70,7 @@ Este repositorio implementa y compara varios algoritmos exactos para resolver es
 ## Requisitos
 
 - Python:  3.12.6
-- Bibliotecas externas: *(solo librería estándar; si se agrega algo más, escribirlo aquí)*  
+- Bibliotecas externas: pandas, matplotlib
 - IDE recomendado:  Visual Studio Code (VS Code)
 
 
@@ -80,7 +80,7 @@ Este repositorio implementa y compara varios algoritmos exactos para resolver es
 
 1. Clonar el repositorio:
 
-       git clone <url-del-repo>
+       git clone https://github.com/Naico17/subasta_acciones.git
        cd SUBASTA_ACCIONES
 
 2. (Opcional) Crear y activar un entorno virtual:
@@ -106,6 +106,16 @@ Este repositorio implementa y compara varios algoritmos exactos para resolver es
        python experimento.py
 
    Los resultados se guardan en la carpeta `resultados/` en formato JSON.
+   
+5. Ejecutar el análisis de resultados(gráficas y resultados):
+
+       python analisis.py
+
+   Lee los resultados guardados en resultados/experimento.json (o el archivo CSV plano),
+Calcula estadísticas por algoritmo (media, desviación estándar, mediana),
+Genera gráficas de tiempo vs. tamaño de entrada, boxplots y uso de memoria,
+Guarda las figuras en resultados/figs/ y los resúmenes en archivos CSV.
+Las gráficas y tablas producidas son las utilizadas en la presentación y el informe final.
 
 ---
 
