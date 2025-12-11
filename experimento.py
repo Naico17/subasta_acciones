@@ -1,6 +1,6 @@
 """
-experimento_v2.py
-Runner experimental mejorado:
+experimento.py
+Runner experimental:
 - genera instancias con A y N variados (no todas del mismo tamaño)
 - ejecuta todos los algoritmos disponibles
 - mide tiempo y memoria (usa src/utils_tiempo.py -> medir_algoritmo)
@@ -12,13 +12,13 @@ import random
 import csv
 from datetime import datetime
 
-# imports del proyecto (ajusta si tus módulos tienen otros nombres)
+# imports del proyecto 
 from src.generador_instancias import generate_instance
 from src.utils import read_data, save_result
-# medir_algoritmo fue definido en src/utils_tiempo.py
+# medir_algoritmo definido en src/utils_tiempo.py
 from src.utils_tiempo import medir_algoritmo
 
-# intentamos importar los algoritmos con los nombres que tienes en src
+# importamos los algoritmos 
 # si alguno falta, se ignora y se informa.
 ALGORITMOS = {}
 try:
@@ -37,7 +37,7 @@ try:
 except Exception:
     print("Aviso: no se pudo importar recursivo")
 
-# nombre con acento si existe en tu repo
+
 try:
     from src.recursivaMemorización import recursive_memoization
     ALGORITMOS["memo"] = recursive_memoization
@@ -61,15 +61,15 @@ except Exception:
 if not ALGORITMOS:
     raise RuntimeError("No se importó ningún algoritmo. Revisa nombres de módulos en src/")
 
-# Parámetros del experimento (ajustables)
+# Parámetros del experimento 
 RANDOM_SEED = 42
 random.seed(RANDOM_SEED)
 
-# quieres rangos variados: lista de A y N
-LIST_A = [10, 25, 50]            # tamaños de capacidad A (puedes ajustar)
-LIST_N = [5, 10, 15]             # números de oferentes (puedes ajustar)
+# lista de A y N
+LIST_A = [10, 25, 50]            # tamaños de capacidad A 
+LIST_N = [5, 10, 15]             # números de oferentes 
 INSTANCIAS_POR_COMBINACION = 4   # cuántas instancias por par (A,N)
-REPETICIONES_POR_EJECUCION = 1   # medir cada algoritmo REPETICIONES veces dentro de medir_algoritmo si lo deseas
+REPETICIONES_POR_EJECUCION = 1   # medir cada algoritmo REPETICIONES veces dentro de medir_algoritmo
 
 # directorios de salida
 os.makedirs("resultados", exist_ok=True)

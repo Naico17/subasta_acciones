@@ -2,23 +2,8 @@
 
 def brute_force(A, N, l, u, p):
     """
-    Búsqueda exhaustiva (backtracking) para el problema de la subasta de acciones.
-
-    Parámetros
-    ----------
-    A : int
-        Número total de acciones disponibles.
-    N : int
-        Número de oferentes.
-    l, u, p : list[int]
-        Listas de longitud N con el mínimo, máximo y precio por acción
-        de cada oferente, respectivamente.
-
-    Retorna
-    -------
-    int
-        Ganancia máxima posible al repartir como mucho A acciones entre
-        los N oferentes.
+    Búsqueda exhaustiva (backtracking).
+    
     """
     best_profit = 0
 

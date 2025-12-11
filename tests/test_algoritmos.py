@@ -1,17 +1,17 @@
 import pytest
 
 # Importar implementaciones de los algoritmos 
-from src.fuerza_bruta import fuerza_bruta
-# from src.recursiva import subasta_recursiva
-# from src.memo import subasta_memo
-# from src.dinamica import subasta_dp
+from src.fuerza_bruta import brute_force
+from src.recursivo import recursive 
+from src.recursivaMemorización import recursive_memoization
+from src.programacion_dinamica import dynamic_programming
 
 # Lista centralizada de algoritmos a probar
 ALGORITMOS = [
-    fuerza_bruta,
-    # subasta_recursiva,
-    # subasta_memo,
-    # subasta_dp
+    brute_force,
+    recursive,
+    recursive_memoization,
+    dynamic_programming
 ]
 
 

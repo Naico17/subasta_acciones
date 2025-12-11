@@ -3,9 +3,7 @@ analisis.py
 Lee resultados del experimento (resultados/experimento.json o .csv) y genera:
 - estadísticas descriptivas impresas
 - resumen CSV
-- gráficas (tiempo vs A, tiempo vs N, boxplots tiempo por algoritmo, memoria)
-Incluye una gráfica adicional tiempo vs N en escala logarítmica
-para visualizar mejor dp y memo cuando sus tiempos son muy pequeños.
+- gráficas (tiempo vs A, tiempo vs N, boxplots tiempo por algoritmo, memoria, gráfica tiempo vs N escala logarítmica)
 """
 
 import os
@@ -18,7 +16,7 @@ CSV_PATH = "resultados/experimento_flat.csv"
 OUT_DIR = "resultados/figs"
 os.makedirs(OUT_DIR, exist_ok=True)
 
-# Cargar datos preferentemente desde CSV si existe (más fácil)
+# Cargar datos preferentemente desde CSV si existe 
 if os.path.exists(CSV_PATH):
     df = pd.read_csv(CSV_PATH)
 elif os.path.exists(JSON_PATH):
@@ -97,7 +95,7 @@ plt.tight_layout()
 plt.savefig(os.path.join(OUT_DIR, "time_vs_A_median.png"))
 plt.close()
 
-# 2) Tiempo (mediana) vs N (escala lineal, como antes)
+# 2) Tiempo (mediana) vs N (escala lineal)
 plt.figure(figsize=(8, 5))
 for alg, g in df.groupby("algorithm"):
     medians = g.groupby("N")["tiempo"].median().sort_index()
@@ -151,7 +149,7 @@ plt.tight_layout()
 plt.savefig(os.path.join(OUT_DIR, "memoria_promedio_por_algoritmo.png"))
 plt.close()
 
-# 5) Scatter tiempo vs resultado (si quieres ver trade-offs)
+# 5) Scatter tiempo vs resultado 
 plt.figure(figsize=(8, 5))
 for alg, g in df.groupby("algorithm"):
     plt.scatter(g["tiempo"], g["resultado"], label=alg, alpha=0.8)

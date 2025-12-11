@@ -6,14 +6,19 @@ def recursive_memoization(A, N, l, u, p):
     Versión recursiva con memoización (top-down) para la subasta de acciones.
     Usa un caché interno para guardar los subproblemas (i, a).
     """
+    # Subproblema:
+    # ¿Cuál es la ganancia máxima que puedo obtener usando los primeros i oferentes
+    # y teniendo shares acciones disponibles?
+
+
 
     @lru_cache(maxsize=None)
     def memo_helper(i, shares):
         # Caso base: no hay oferentes o no hay acciones
         if i == 0 or shares == 0:
-            return 0
+            return 0                #ganancia 0
 
-        # Opción 1: no asignar acciones al oferente i
+        # Opción 1: no asignar acciones al oferente i, se ignora el oferente i-1 y se resuelve el problema para i-1 oferentes
         best = memo_helper(i - 1, shares)
 
         # Opción 2: asignar x acciones al oferente i-1
